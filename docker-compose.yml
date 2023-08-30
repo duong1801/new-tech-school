@@ -13,11 +13,18 @@ services:
     networks:
       - app-network
   npm:
-    image: "node:20"
-    user: root
+    image: "node:13.7"
     container_name: "npm_techschool_frontend"
     volumes:
       - "./:/var/www/html"
     ports:
       - "1111:3000"
     working_dir: /var/www/html
+  json-server:
+    image: vimagick/json-server
+    command: -H 0.0.0.0 -p 3001 -w db.json
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./src/Configs:/data
+    restart: always
