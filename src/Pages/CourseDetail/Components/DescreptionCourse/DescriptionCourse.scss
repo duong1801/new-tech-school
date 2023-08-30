@@ -1,0 +1,21 @@
+.description {
+  background-color: #cff7e4;
+  li{
+    position: relative;
+    .check {
+      position: absolute;
+      top:7px;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      color: #08703d;
+      flex-shrink: 0;
+    }
+    p{
+      padding-left:30px;
+    }
+  }
+}
+.shadow {
+  box-shadow: 0 8px 30px rgb(0 0 0 / 5%) !important;
+}

@@ -1,0 +1,27 @@
+.video-detail{
+    .video-title{
+        margin-bottom: 20px;
+    }
+    .player{
+        iframe{
+            width: 100%;
+        }
+    }
+    .hide-playlist{
+        text-align: right;
+        button{
+            border-radius:8px;
+            background:#f53838;
+            border:none;
+            padding:10px 20px;
+            color:#fff;
+            transition: all .3s;
+            border:1px solid transparent;
+            &:hover{
+                background:#fff;
+                color:#f53838;
+                border:1px solid #f53838;
+            }
+        }
+    }
+}

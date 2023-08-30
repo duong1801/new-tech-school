@@ -1,0 +1,25 @@
+.posts {
+  .posts-container {
+    @media only screen and (min-width: 769px) {
+      flex-wrap: wrap-reverse;
+      .post-item {
+        flex-direction: row;
+        .posts-image {
+          img {
+            width: 300px;
+          }
+        }
+      }
+    }
+    @media only screen and (min-width: 992px) {
+      .post-item {
+        flex-direction: row;
+        .posts-image {
+          img {
+            width: 400px;
+          }
+        }
+      }
+    }
+  }
+}

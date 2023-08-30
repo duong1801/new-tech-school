@@ -1,0 +1,14 @@
+.posts {
+  .posts-container {
+    flex-wrap: wrap-reverse;
+    .post-item {
+      flex-direction: column;
+      .posts-image {
+        img {
+          border-radius: 0.375rem;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

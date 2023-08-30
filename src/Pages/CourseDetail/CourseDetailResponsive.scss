@@ -1,0 +1,39 @@
+@media only screen and (min-width: 320px) {
+  .posts {
+    .middle-sidebar-bottom {
+      .description {
+        margin-bottom: 1.5rem;
+      }
+      .price {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+      .author {
+        width: auto;
+      }
+      span.tech2-btn {
+        width: 80%;
+        transform: translateX(0);
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .posts {
+    .middle-sidebar-bottom {
+      .position-sticky {
+        top: 1.5rem;
+        .price {
+          font-size: 1.2rem;
+          font-weight: 500;
+        }
+      }
+      span.tech2-btn {
+        width: 80%;
+        transform: translateX(0);
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

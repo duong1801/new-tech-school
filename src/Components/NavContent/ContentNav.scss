@@ -1,0 +1,58 @@
+.nav-content {
+  padding: 10px 0;
+  border-radius: 10px;
+  margin-top: 10px;
+  .nav-content__author {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    .author--avatar {
+      img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+    }
+    .author--name {
+      margin-left: 10px;
+      color: #888;
+    }
+    &:hover {
+      span {
+        color: #f53838;
+      }
+    }
+  }
+  .nav-content__lists {
+    padding: 8px 0;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    svg {
+      color: #f53838;
+    }
+    span {
+      color: #888;
+      margin-left: 15px;
+    }
+    &:hover {
+      span {
+        color: #f53838;
+      }
+    }
+  }
+}
+.active {
+  .nav-content {
+    background-color: #f53838;
+    svg,
+    span {
+      color: #fff;
+    }
+    &:hover {
+      span {
+        color: #fff;
+      }
+    }
+  }
+}

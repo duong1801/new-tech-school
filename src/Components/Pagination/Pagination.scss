@@ -1,0 +1,33 @@
+.tech2 {
+  &-pagination {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  &-page-button {
+    padding: 5px 15px;
+    margin: 0 10px;
+    outline: none;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #f53838;
+    color: #f53838;
+    font-weight: 600;
+    transition: all 0.3s;
+    font-size: 16px;
+    &.active,
+    &:not(.disable):hover {
+      color: #fff;
+      background: #f53838;
+    }
+    &.disable {
+      border: 1px solid #ccc;
+      color: #ccc;
+      cursor: auto;
+    }
+    svg {
+      font-size: 14px;
+      display: flex;
+    }
+  }
+}

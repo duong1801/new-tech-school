@@ -1,0 +1,28 @@
+.header {
+  padding: 20px 0;
+  border: 1px solid #efefef;
+  .menu-container {
+    position: relative;
+  }
+  .signup-btn {
+    border-radius: 20px;
+    border: 1px solid #f53838;
+    background-color: transparent;
+    color: #f53838;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    &:hover {
+      background: #f53838;
+      color: #fff;
+    }
+  }
+  
+  .logo {
+    width: 150px;
+    margin: 0 auto;
+  }
+}

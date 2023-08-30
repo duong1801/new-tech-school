@@ -1,0 +1,23 @@
+.course-img {
+  img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+  }
+}
+.author-img {
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+}
+.video {
+  font-style: 20px;
+}
+.disabled {
+  cursor: not-allowed;
+  background-color: #f53838;
+  color: rgba(255, 255, 255, 0.632);
+  text-transform: uppercase;
+}

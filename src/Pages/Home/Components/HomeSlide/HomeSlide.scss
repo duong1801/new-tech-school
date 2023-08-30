@@ -1,0 +1,79 @@
+.home-slide {
+  overflow: hidden;
+  position: relative;
+  .slick-dots {
+    z-index: 20;
+    bottom: 25px;
+    li.slick-active button:before {
+      color: #fff;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      opacity: 1;
+      line-height: 18px;
+      font-size: 5px;
+    }
+    button {
+      background: transparent;
+      &:before {
+        color: #fff;
+        opacity: 1;
+        font-size: 3.5px;
+      }
+    }
+  }
+  .course-slider {
+    border-radius: 8px;
+    overflow: hidden;
+    border: 0;
+    outline: none;
+    height: 410px;
+    background-color: #000;
+    background-position: left 50px top 10px;
+    .btn-slider {
+      position: absolute;
+      top: 50%;
+      z-index: 4;
+      cursor: pointer;
+      &.prev-slider {
+        transform: translateX(15px);
+      }
+      &.next-slider {
+        right: 0;
+        transform: translateX(-15px);
+      }
+    }
+    .video-wrap {
+      width: 74%;
+      margin-left: auto;
+      position: relative;
+      border: none;
+      height: 100%;
+      &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0%;
+        width: 60%;
+        height: 100%;
+        background: linear-gradient(to right, #000, transparent);
+        z-index: 2;
+      }
+      img {
+        vertical-align: middle;
+        border-style: none;
+      }
+    }
+    .card-description {
+      width: 60%;
+      padding: 0px 0 0 70px;
+      z-index: 3;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      display: flex;
+      align-items: center;
+      flex: 1 1 auto;
+      min-height: 1px;
+    }
+  }
+}

@@ -1,0 +1,156 @@
+.main{
+    &.dark{
+
+        .hover{
+            color:#fff;
+            &:hover{
+                color:#f53838;
+            }
+        }
+
+        .navigation, .header{
+            background-color: #293145;
+            border:1px solid #293145;
+        }
+        .navigation{
+            .nav-list{
+                span{
+                    color:#fff;
+                }
+            }
+        }
+        .background-whiteGray{
+            background:#1a2236
+        }
+        .render-courses{
+            h2,.read-more{
+                color:#fff;
+            }
+            
+            .card-course{
+                background-color: #2a3042;
+
+                .card-course--sale{
+                    color:#fff;
+                }
+            }
+        }
+        .author{
+            background:#1a2236;
+            .profile-author{
+                background:#2a3042;
+                .profile__name{
+                    h2{
+                        color:#fff;
+                    }
+                }
+                .profile__body{
+                    h4{
+                        color:#fff;
+                    }
+                }
+                .profile__card{
+                    background-color: transparent;
+                }
+            }
+        }
+        .featuredPosts{
+            h3{
+                color:#fff;
+            }
+            p{
+                color:#888;
+            }
+        }
+        .posts{
+            .post-item{
+                border:1px solid #293145 !important;
+                .post-text{
+                    background:#293145;
+                    p{
+                        color:#888;
+                    }
+                }
+            }
+            .category-fixed{
+                background-color:#293145;
+                border:1px solid #293145 !important;
+                h1,a{
+                    color:#fff;
+                }
+            }
+            .title-course{
+                background: #293145 !important;
+                border:1px solid #293145 !important;
+                h2,p{
+                    color:#fff;
+                }
+            }
+            .list-video{
+                .content-parent{
+                    background:#293145;
+                    li{
+                        a,p{
+                            color:#fff;
+                        }
+                    }
+                }
+            }
+            .rounded{
+                border:1px solid #293145 !important;
+            }
+            .bg-white{
+                background: #293145 !important;
+            }
+            .author{
+                background: #293145 !important;
+                a{
+                    color:#fff;
+                }
+            }
+            .card-course--sale{
+                color:#fff;
+            }
+            .video{
+                color:#fff;
+            }
+            &.post-detail{
+                h1, p{
+                    color:#fff;
+                    a{
+                        color:#fff;
+                    }
+                }
+                .about-author{
+                    color:#888
+                }
+            }
+        }
+        .categories-sidebar{
+            h2{
+                color:#fff;
+            }
+        }
+        .footer{
+            border: 1px solid #293145 !important;
+            h3,p{
+                color:#fff;
+            }
+        }
+        .partner-slider{
+            h3{
+                color:#fff;
+            }
+        }
+        .user-profile{
+            h3{
+                color:#fff;
+            }
+            &-form{
+                p{
+                    color:#fff;
+                }
+            }
+        }
+    }
+}

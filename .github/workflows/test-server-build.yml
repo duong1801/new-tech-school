@@ -1,0 +1,21 @@
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+    - develop
+jobs:
+  deploy-test-server:
+    name: deploy frontend to test.techshool.vn
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: build
+        uses: garygrossgarten/github-action-ssh@release
+        with:
+          command: cd /home/techschool-frontend && sh deploy.sh
+          host: ${{ secrets.HOST}}
+          username: root
+          port: ${{ secrets.PORT}}
+          password: ${{ secrets.PASSWORD}}
+

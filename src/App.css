@@ -1,0 +1,106 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+html {
+  scroll-behavior: "smooth";
+}
+body{
+  overflow-x: hidden;
+}
+img {
+  object-fit: cover;
+  max-width:100%;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+.padding-left {
+  padding-left: 280px;
+}
+.background-whiteGray {
+  background-color: #fbfcfe;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: #000;
+}
+.hover:hover {
+  color: #f53838;
+  transition: all ease 0.3s;
+}
+
+.main-page{
+  display: flex;
+  flex-direction: column;
+  height:100%;
+}
+
+.main-page > div:nth-child(2),
+.main-page > div:nth-child(2) > div{
+ height:100%;
+}
+
+.tech2-btn {
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  padding: 7px 60px;
+  font-size: 12px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  font-weight: 600 !important;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 8px;
+  background: #f53838;
+  cursor: pointer;
+}
+.tech2-btn:hover {
+  color: #fff;
+}
+
+.category-course {
+  font-weight: 700 !important;
+  padding: 0 16px;
+  line-height: 32px;
+  font-size: 11px;
+  letter-spacing: 0.6px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 130px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+.category-course.front-end {
+  color: #fe9431;
+  background-color: #ffead6;
+  border-color: #ffe1c5;
+}
+.category-course.back-end {
+  color: #f53838;
+  background-color: #f4d3d3;
+  border-color: #f4d3d3;
+}
+.position-sticky {
+  top: 90px;
+}
+
+.container {
+  max-width: 100% !important;
+}
+
+@media only screen and ( max-width: 1199px) {
+  .mobile{
+    display: none;
+  }
+}
+@media only screen and ( max-width: 768px) {
+  .mobile--bottom {
+    height: 40px;
+  }
+}

@@ -1,0 +1,29 @@
+
+@media only screen and ( max-width: 576px ) {
+    .text-white {
+        width: 220px;
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 16px !important;
+    }
+
+}
+
+@media only screen and ( min-width: 577px ) and ( max-width: 768px) {
+    .text-white {
+        width: 350px;
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .tech2-btn {
+        padding: 7px 16px;
+    }
+
+     h2 {
+        font-size: 16px !important;
+    }
+}

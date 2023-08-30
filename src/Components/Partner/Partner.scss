@@ -1,0 +1,11 @@
+.partner-slider{
+  .slick-arrow{
+    display: none;
+  }
+  .slick-slider .slick-slide .partner__img {
+    height:120px;
+    max-width:100%;
+    display: block;
+    margin: 0 auto;
+    }
+}

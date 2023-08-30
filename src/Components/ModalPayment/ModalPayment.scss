@@ -1,0 +1,26 @@
+.modal-form-wrapper {
+  .modal-dialog {
+    max-width: 768px;
+    .modal-content {
+      border: none;
+      background-color: transparent;
+    }
+  }
+  .payment {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    overflow: hidden;
+    padding: 2rem 2rem;
+    // height: 500px;
+  }
+  .come-back {
+    cursor: pointer;
+    background-color: #f53838;
+    color: #fff;
+    margin-top: 15px;
+  }
+  .height {
+    min-height: 490px;
+  }
+}
